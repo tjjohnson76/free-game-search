@@ -1,0 +1,112 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+main{
+background-color: rgb(77, 77, 77);
+}    
+
+header{
+    padding: 20px;
+    background-color: rgb(29, 29, 29);
+}
+#header-title{
+    font-size: medium;
+    color: white;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+img{
+    width: 600px;
+    height: auto;
+}
+card{
+display: flex;
+flex-direction: row;
+border: solid black 2px;
+padding: 10px;
+margin-left: 20px;
+margin-right: 20px;
+background-color: rgb(77, 77, 77);
+margin-top: 20px;
+flex-basis: 33%;
+}
+#card{
+    border: 0;
+}
+h4{
+    color: white;
+}
+p{
+    color: white;
+}
+#refresh, #cart-btn{
+    background-color: white;
+    width: 150px;
+    margin: 5px;
+    padding: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 10px;
+}
+.card-left{
+    padding: 15px;
+}
+.card-right{
+    padding: 15px;
+}
+
+@media screen and (min-width: 376px) and (max-width: 991px) {
+  #refresh, #cart-btn {
+    display: block;
+    width: 98.5%;
+    align-items: center;
+    margin: 10px;
+    margin-right: 5px;
+  }
+  img{
+    width: 400px;
+  }
+  card{
+    flex-direction: column;
+    align-content: center;
+  }
+}
+
+
+.container {
+    padding: 2rem 0rem;
+  }
+  
+  .table-image {
+    
+    thead {
+      td, th {
+        border: 0;
+        color: #666;
+        font-size: 0.8rem;
+      }
+    }
+    
+    td, th {
+      vertical-align: middle;
+      text-align: center;
+      
+      &.qty {
+        max-width: 2rem;
+      }
+    }
+  }
+
+  
+  .modal-footer {
+    padding-top: 0rem;
+  }
+header form{
+    background-color: rgb(29, 29, 29);
+}
+.list-group-item{
+    padding: 0;
+}
+
